@@ -6,7 +6,7 @@ jobs:
   job1:
     runs-on: ubuntu-latest
     container:
-      image: hashicorp/terraform:
+      image: hashicorp/terraform:latest
     steps:
        - name: Terraform Init
          run: |
